@@ -1,0 +1,22 @@
+CREATE VITUAL ENVIRONMENT
+1- python3 -m venv venv
+2- source venv/bin/activate
+
+INSTALL AND CONFIG DJANGO
+3- pip install django
+4- django-admin startproject project_name .
+5- python3 manage.py runserver  #test web
+6- python3 manage.py startapp app_name
+7- config application: add app name into settings.py: INSTALLED_APPS = []
+8- create urls.py inside project file
+9- go to mysite/urls.py, add project.urls.py: path('', include('project.urls')),
+10- go to project/urls.py, add index: path('', views.index, name='index'),
+11- add gitignore
+
+MIGRATE DATABASE
+1- python3 manage.py makemigrations
+2- python3 manage.py migrate
+
+ADMIN PANEL SETTING
+1- python3 manage.py createsuperuser
+2- go to admin page: http://127.0.0.1:8000/admin
