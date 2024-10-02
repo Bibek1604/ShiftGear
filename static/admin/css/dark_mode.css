@@ -18,7 +18,7 @@
       --hairline-color: #272727;
       --border-color: #353535;
   
-      --error-fg: #e35f5f;
+      --error-fg: #109118;
       --message-success-bg: #006b1b;
       --message-warning-bg: #583305;
       --message-error-bg: #570808;
@@ -52,7 +52,7 @@ html[data-theme="dark"] {
     --hairline-color: #272727;
     --border-color: #353535;
 
-    --error-fg: #e35f5f;
+    --error-fg: #109118;
     --message-success-bg: #006b1b;
     --message-warning-bg: #583305;
     --message-error-bg: #570808;

@@ -31,7 +31,7 @@ html[data-theme="light"],
     --hairline-color: #e8e8e8;
     --border-color: #ccc;
 
-    --error-fg: #ba2121;
+    --error-fg: #109118\;
 
     --message-success-bg: #dfd;
     --message-warning-bg: #ffc;
@@ -48,7 +48,7 @@ html[data-theme="light"],
     --default-button-hover-bg: #205067;
     --close-button-bg: #747474;
     --close-button-hover-bg: #333;
-    --delete-button-bg: #ba2121;
+    --delete-button-bg: #109118\;
     --delete-button-hover-bg: #a41515;
 
     --object-tools-fg: var(--button-fg);

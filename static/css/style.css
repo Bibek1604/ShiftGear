@@ -60,7 +60,7 @@ ul {
 }
 
 .google:hover {
-    color: #dc4e41 !important;
+    color: #109118 !important;
 }
 
 .rss:hover {
@@ -83,7 +83,7 @@ ul {
 }
 
 .google-bg {
-    background: #db4437;
+    background: #109118;
     color: #fff;
 }
 
@@ -118,7 +118,7 @@ ul {
 }
 
 .google-bg:hover {
-    background: #dc4e41;
+    background: #109118;
     color: #fff;
 }
 
@@ -128,7 +128,7 @@ ul {
 }
 
 .pinterest-bg:hover {
-    background: #a30618;
+    background: #109118;
     color: #fff;
 }
 
@@ -2795,7 +2795,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .slick-btn .slick-arrow-buton {
-    color: #ff214f;
+    color: #109118;
 }
 
 .slick-btn .sab-4 {
@@ -3348,7 +3348,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .team-1 .google-bg:hover {
-    background: #dc4e41!important;
+    background: #109118!important;
 }
 
 .our-team-2{
@@ -3452,7 +3452,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .team-2 .google-bg:hover {
-    background: #dc4e41!important;
+    background: #109118!important;
 }
 
 /** pages 404 start **/
@@ -3777,11 +3777,11 @@ input[type=checkbox]:checked + label:before {
 }
 
 .notice-danger {
-    border-left-color: #eb344f;
+    border-left-color: #109118;
 }
 
 .notice-danger strong {
-    color: #eb344f;
+    color: #109118;
 }
 
 .notice-info strong {

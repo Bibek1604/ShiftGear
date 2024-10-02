@@ -110,7 +110,7 @@
 }
 .dropzone .dz-preview .dz-error-mark,
 .dropzone-previews .dz-preview .dz-error-mark {
-  color: #ee162d;
+  color: #109118;
 }
 .dropzone .dz-preview .dz-progress,
 .dropzone-previews .dz-preview .dz-progress {
@@ -235,7 +235,7 @@
 }
 .dropzone .dz-preview.dz-error .dz-progress .dz-upload,
 .dropzone-previews .dz-preview.dz-error .dz-progress .dz-upload {
-  background: #ee1e2d;
+  background: #109118;
 }
 .dropzone .dz-preview .dz-error-mark,
 .dropzone-previews .dz-preview .dz-error-mark,
