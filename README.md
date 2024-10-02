@@ -27,6 +27,7 @@ Car Zone is a Django web application designed for a used car business owner who 
 1. Clone the repository:
    ```bash
    git clone https://github.com/ningsssun/carzone_project
+   
    cd carzone_project
 2. Setup virtual environment:
    ```bash
