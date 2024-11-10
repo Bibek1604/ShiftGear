@@ -173,6 +173,8 @@ MESSAGE_TAGS = {
 
 SITE_ID = 1
 
+WSGI_APPLICATION='shiftgear.wsgi.application'
+
 
 # Sending email
 # EMAIL_HOST = 'w'
