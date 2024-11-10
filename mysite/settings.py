@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mysite.wsgi.application'
+WSGI_APPLICATION = 'ShiftGear-3.wsgi.application'
 
 # Database Configuration
 DATABASES = {
