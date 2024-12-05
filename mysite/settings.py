@@ -63,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'allauth.account.middleware.AccountMiddleware',  # Add this line
 ]
 
 ROOT_URLCONF = 'mysite.urls'
@@ -84,7 +85,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ShiftGear-3.wsgi.application'
+WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database Configuration
 DATABASES = {
@@ -126,12 +127,11 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-# Email Configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = config('admin', default='admin@gmail.com')
-EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=True, cast=bool)
-EMAIL_HOST_USER = config('admin')
-EMAIL_HOST_PASSWORD = config('admin')
+EMAIL_HOST = config('EMAIL_HOST', default='smtp.gmail.com')  # Default SMTP server
+EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=True, cast=bool)  # TLS enabled
+EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='admin@gmail.com')  # Your email
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', default='admin')  # Your password
 
 # Default Primary Key Field Type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
